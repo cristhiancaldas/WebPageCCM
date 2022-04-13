@@ -7,18 +7,6 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
 */
-
-/*
-* Built using on:
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
-
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -45,14 +33,15 @@
   background-color: transparent;
   border-radius: 8px;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* Efecto de movimiento */
 .button:hover {
   filter: brightness(80%);
   transition: 0.4s;
   padding-right: 24px;
-  padding-left:8px;
+  padding-left: 8px;
 }
 
 /* Efecto para description */
@@ -84,86 +73,123 @@
   height: 20px;
 }
 
-
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Slides */
 .button.button-slides {
-  color: #FFFFFF;
-  background-color: #212c3d }
+  color: #ffffff;
+  background-color: #212c3d;
+}
 .button.button-slides:hover,
 .button.button-slides:hover:before {
-    content: 'Siempre me preguntan si voy a compartir mis presentaciones, ya tienen la respuesta :)';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* LinkedIn */
 .button.button-linkedin {
-  color: #FFFFFF;
-  background-color: #0e76a8 }
+  color: #ffffff;
+  background-color: #2867b2;
+}
 .button.button-linkedin:hover,
 .button.button-linkedin:hover:before {
-    content: 'LinkedIn es la red social que mas uso para compartir todo lo relacionado sobre Ciberseguridad y AWS Security';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* Medium */
 .button.button-medium {
   color: #000000;
-  background-color: #FFFFFF }
+  background-color: #ffffff;
+}
 .button.button-medium:hover,
 .button.button-medium:hover:before {
-    content: 'Si te gustan los blogs técnicos, tengo algunos blogs escritos en Medium';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* YouTube2 */
 .button.button-youtube {
-  color: #FFFFFF;
-  background-color: #FF0000 }
+  color: #ffffff;
+  background-color: #ff0000;
+  pointer-events: none;
+}
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
-    content: 'Suscríbete a nuestro canal y no te pierdas de nuestros últimos vídeos';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* Devto */
 .button.button-devto {
-  color: #FFFFFF;
-  background-color: #000000 }
+  color: #ffffff;
+  background-color: #000000;
+}
 .button.button-devto:hover,
 .button.button-devto:hover:before {
-    content: 'También tengo blogs escritos en Devto, no digas que no te dije ;)';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* Slack */
 .button.button-slack {
-  color: #FFFFFF;
-  background-color: #10c694 }
+  color: #ffffff;
+  background-color: #10c694;
+}
 .button.button-slack:hover,
 .button.button-slack:hover:before {
-  content: 'Unete al Slack de la 1ra comunidad sobre Seguridad en AWS de habla hispana. Aquí podras compartir conocimientos, resolver dudas, hacer networking y más!';
-  white-space: initial; }
+  white-space: initial;
+}
 
 /* Twitch */
 .button.button-twitch {
-  color: #FFFFFF;
-  background-color: #7b16ff }
+  color: #ffffff;
+  background-color: #7b16ff;
+}
 .button.button-twitch:hover,
 .button.button-twitch:hover:before {
-    content: 'Entérate antes que nadie sobre todas nuestras transmisiones en vivo!';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* YouTube */
 .button.button-youtube {
-  color: #FFFFFF;
-  background-color: #FF0000 }
+  color: #ffffff;
+  background-color: #ff0000;
+  pointer-events: none;
+}
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
-    content: 'Suscríbete a nuestro canal y no te pierdas de nuestros últimos vídeos';
-    white-space: initial; }
+  white-space: initial;
+}
 
 /* Instagram */
 .button.button-instagram {
-  color: #FFFFFF;
-  background-color: #bc2a8d }
+  color: #ffffff;
+  background-color: #bc2a8d;
+}
 .button.button-instagram:hover,
 .button.button-instagram:hover:before {
-    content: 'Sigue a la comunidad de AWS Security LATAM en instagram :)';
-    white-space: initial; }
+  white-space: initial;
+}
+/* Website */
+.button.button-web {
+  color: #ffffff;
+  background-color: #0085ff;
+}
+.button.button-web:hover,
+.button.button-web:focus {
+  filter: brightness(90%);
+}
+/* Github */
+.button.button-github {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-github:hover,
+.button.button-github:focus {
+  filter: brightness(90%);
+}
+/* Twitter */
+.button.button-twit {
+  color: #ffffff;
+  background-color: #1da1f2;
+}
+.button.button-twit:hover,
+.button.button-twit:focus {
+  filter: brightness(90%);
+}
